@@ -1,5 +1,5 @@
 # Biological_Learning
-Example of "biological" learning for MNIST based on the paper [Unsupervised Learning by Competing Hidden Units](https://arxiv.org/abs/1806.10181) by D.Krotov and J.Hopfield. 
+Example of "biological" learning for MNIST based on the paper [Unsupervised Learning by Competing Hidden Units](https://doi.org/10.1073/pnas.1820458116) by D.Krotov and J.Hopfield. If you want to learn more about this work you can also check out this [lecture](https://www.youtube.com/watch?v=4lY-oAY0aQU) from MIT's [6.S191 course](http://introtodeeplearning.com/).  
 
 ## Getting started
 
