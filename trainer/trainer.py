@@ -15,6 +15,7 @@ def train(model, dataloader, optimizer, criteria, metric, device):
         loss = criteria(output, label)
         loss.backward()
         optimizer.step()
+        optimizer.zero_grad()
         # update running loss
         running_loss += loss.item()
         running_metric += metric(output, label)
@@ -35,4 +36,3 @@ def test(model, dataloader, criteria, metric, device):
         running_loss += loss.item()
         running_metric += metric(output, label)
     return running_loss, running_metric
-
