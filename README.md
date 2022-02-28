@@ -13,4 +13,3 @@ run `Unsupervised_learning_algorithm_MNIST.ipynb` and observe weights.
 ## Author and License
 (c) 2018 Dmitry Krotov
 -- Apache 2.0 License
-

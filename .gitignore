@@ -1,0 +1,30 @@
+# data
+*.gz
+*SessionArgs
+*runs/
+*.npz
+*.npy
+*ucf/
+*old_data/
+*.pt
+# python
+*__pycache__
+*.ipynb_checkpoints
+*.vscode
+
+# raw process data
+*raw_data/
+
+# models
+*trained_models
+
+# vim
+*.swp
+
+# vscode
+*.vscode/
+
+# mac
+*.DS_Store
+# sbatch files
+*.out
