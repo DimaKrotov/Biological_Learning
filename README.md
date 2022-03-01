@@ -14,9 +14,13 @@ At the top of the directory, run
 python main.py
 ```
 This will create (if not already existed) the follow folders:
-` 
 * `logs`: contains the training hyperparameters, tensorboard logs, and saved model checkpoints
 * `data`: the default location for PyTorch to download the MNIST and CIFAR 10 datasets
+
+To see all currently available command line arguments, run 
+```python
+python main.py -h
+```
 
 ## Visualization
 Run
