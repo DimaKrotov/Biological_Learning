@@ -59,7 +59,7 @@ for epoch in tqdm(range(E), desc="Epoch", total=args.epochs, dynamic_ncols=True)
     # train
     train(model, train_loader, optimizer, nn.CrossEntropyLoss(), device, train_writer, epoch) 
     # test
-    test(model, test_loader, nn.CrossEntropyLoss(), device, train_writer, epoch) 
+    test(model, test_loader, nn.CrossEntropyLoss(), device, test_writer, epoch) 
     # save checkpoint
     if epoch % 10 == 9:
         torch.save(model.state_dict(), run_base_dir / f"epoch_{epoch+1}.pt") 
