@@ -3,9 +3,9 @@ import torch.nn as nn
 
 
 class BPNet(nn.Module):
-    def __init__(self, input_dim, hidden_dim, output_dim):
+    def __init__(self, input_dim, input_channel, hidden_dim, output_dim):
         super(BPNet, self).__init__()
-        self.fc1 = nn.Linear(input_dim, hidden_dim)
+        self.fc1 = nn.Linear(input_dim * input_channel, hidden_dim)
         self.fc2 = nn.Linear(hidden_dim, output_dim) 
 
     def forward(self, x):

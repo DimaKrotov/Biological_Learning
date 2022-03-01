@@ -1,6 +1,5 @@
 # data
 *.gz
-*SessionArgs
 *runs/
 *.npz
 *.npy
@@ -13,6 +12,7 @@
 *.vscode
 
 # raw process data
+*data/
 *raw_data/
 
 # models
@@ -28,3 +28,6 @@
 *.DS_Store
 # sbatch files
 *.out
+
+# training logs
+*logs/
